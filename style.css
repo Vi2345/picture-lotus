@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: aliceblue;
+    text-align: center;
+    font-family: monospace;
+    justify-content: space-between;
+}
+
+.card{
+    background-color: bisque;
+    border-radius: 20px solid;
+    display: inline-block;
+    height: 520px;
+    width: 390px;
+    margin-top: 75px;
+    box-shadow:0 12px 13px;
+
+}
+
+.images{
+    border-radius:10px;
+    margin-top: 65px;
+    width:300px;
+    height:250px;
+}
+
+
+.title{
+    color: black;
+    font-size: 18px;
+}
+
+.btn {
+    font-size: 14px;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-top: 2px;
+}
+.btn:hover{
+    background-color: green;
+}
